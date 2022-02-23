@@ -28,6 +28,9 @@ def solution(citations):
         # 2 : 3 : 3 (3, 5, 6)
         # 3 : 1 : 4 (1, 3, 5, 6)
         # 4 : 0 : 5 (0, 1, 3, 5, 6)
+        # ? citation : 인용수
+        # ? idx : 논문 수
+        # ? 피인용수 <= 논문수
         if citation <= idx:
             print(idx)
             return idx
