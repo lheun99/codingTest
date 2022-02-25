@@ -1,6 +1,6 @@
 #
 # *피보나치수 Fibonacci
-# fn = fn-1 + fn-1
+# fn = fn-1 + fn-2
 
 num = int(input())
 
